@@ -4,6 +4,12 @@ Starter template for a .NET 10 minimal API backed by MongoDB, with JWT
 authentication, Testcontainers-based integration tests and CI. Tenancy and a
 background-worker host are included as optional folders.
 
+## Screenshots
+
+![Health check, rejected and accepted login, and the JWT-protected endpoints](docs/screenshots/api-session.png)
+
+_Real output from a local run of the built API (.NET 10, Development environment, seeded admin) against FerretDB, a MongoDB-compatible server backed by PostgreSQL, because a MongoDB server was not available in the sandbox. The JWT is shortened and the password is redacted in the login line. FerretDB is not MongoDB, so use the Testcontainers suite (real MongoDB) as the reference for database behaviour._
+
 ## What is included
 
 - `src/ProjectName.Api`: minimal API.
