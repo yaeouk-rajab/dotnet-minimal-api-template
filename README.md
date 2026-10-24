@@ -4,6 +4,12 @@ Starter template for a .NET 10 minimal API backed by MongoDB, with JWT
 authentication, Testcontainers-based integration tests and CI. Tenancy and a
 background-worker host are included as optional folders.
 
+## Screenshots
+
+![Running the API and calling the auth endpoints](docs/screenshots/api-session.png)
+
+_These images are illustrative mockups rendered from this repository's documented screens and API shapes, not captures of a running build. Regenerate or replace them with real captures once the app is running._
+
 ## What is included
 
 - `src/ProjectName.Api`: minimal API.
