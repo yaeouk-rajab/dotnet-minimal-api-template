@@ -6,9 +6,9 @@ background-worker host are included as optional folders.
 
 ## Screenshots
 
-![Running the API and calling the auth endpoints](docs/screenshots/api-session.png)
+![Health check, rejected and accepted login, and the JWT-protected endpoints](docs/screenshots/api-session.png)
 
-_These images are illustrative mockups rendered from this repository's documented screens and API shapes, not captures of a running build. Regenerate or replace them with real captures once the app is running._
+_Real output from a local run of the built API (.NET 10, Development environment, seeded admin) against FerretDB, a MongoDB-compatible server backed by PostgreSQL, because a MongoDB server was not available in the sandbox. The JWT is shortened and the password is redacted in the login line. FerretDB is not MongoDB, so use the Testcontainers suite (real MongoDB) as the reference for database behaviour._
 
 ## What is included
 
